@@ -1,12 +1,11 @@
-import os
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
+import os
 import chainer
 from chainer import  serializers
 import PIL
 from PIL import ImageDraw
-import numpy as np
 import argparse
 import chainer.functions as F
 from network import RAM
