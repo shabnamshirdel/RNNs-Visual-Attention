@@ -1,0 +1,1 @@
+The model is a recurrent neural network (RNN) that processes inputs sequentially, focusing on one part of the image or video frame at a time to build a dynamic internal representation. Unlike convolutional networks, which scale computationally with image size, this RNN allows independent control over model parameters and computation without being affected by input size.
