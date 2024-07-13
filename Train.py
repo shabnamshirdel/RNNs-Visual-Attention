@@ -1,9 +1,9 @@
-import argparse
 import numpy as np
+import argparse
 import chainer
 from chainer import training, datasets, iterators, optimizers, serializers
-from chainer import reporter
 from network import RAM
+from chainer import reporter
 from chainer.training import extensions
 from weightdecay import lr_drop
 
